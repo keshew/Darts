@@ -7,18 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860B7EC72D312C7D00F69248 /* DartsLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B7EC42D312C7D00F69248 /* DartsLoseView.swift */; };
+		860B7EC82D312C7D00F69248 /* DartsLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B7EC52D312C7D00F69248 /* DartsLoseModel.swift */; };
+		860B7EC92D312C7D00F69248 /* DartsLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B7EC62D312C7D00F69248 /* DartsLoseViewModel.swift */; };
+		860B7ECD2D31384A00F69248 /* DartsWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B7ECA2D31384A00F69248 /* DartsWinView.swift */; };
+		860B7ECE2D31384A00F69248 /* DartsWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B7ECB2D31384A00F69248 /* DartsWinModel.swift */; };
+		860B7ECF2D31384A00F69248 /* DartsWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B7ECC2D31384A00F69248 /* DartsWinViewModel.swift */; };
+		8610FB782D2BF207006CDB98 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB772D2BF207006CDB98 /* Router.swift */; };
+		8610FB7D2D2BF904006CDB98 /* DartsStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB7A2D2BF904006CDB98 /* DartsStoreView.swift */; };
+		8610FB7E2D2BF904006CDB98 /* DartsStoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB7B2D2BF904006CDB98 /* DartsStoreModel.swift */; };
+		8610FB7F2D2BF904006CDB98 /* DartsStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB7C2D2BF904006CDB98 /* DartsStoreViewModel.swift */; };
+		8610FB842D2C363A006CDB98 /* DartsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB812D2C363A006CDB98 /* DartsProgressView.swift */; };
+		8610FB852D2C363A006CDB98 /* DartsProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB822D2C363A006CDB98 /* DartsProgressModel.swift */; };
+		8610FB862D2C363A006CDB98 /* DartsProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB832D2C363A006CDB98 /* DartsProgressViewModel.swift */; };
+		8610FB8B2D2C6440006CDB98 /* DartsRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB882D2C6440006CDB98 /* DartsRulesView.swift */; };
+		8610FB8C2D2C6440006CDB98 /* DartsRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB892D2C6440006CDB98 /* DartsRulesModel.swift */; };
+		8610FB8D2D2C6440006CDB98 /* DartsRulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB8A2D2C6440006CDB98 /* DartsRulesViewModel.swift */; };
+		8610FB922D2C6FFC006CDB98 /* DartsPickGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB8F2D2C6FFC006CDB98 /* DartsPickGameView.swift */; };
+		8610FB932D2C6FFC006CDB98 /* DartsPickGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB902D2C6FFC006CDB98 /* DartsPickGameModel.swift */; };
+		8610FB942D2C6FFC006CDB98 /* DartsPickGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB912D2C6FFC006CDB98 /* DartsPickGameViewModel.swift */; };
+		8610FB992D2C818A006CDB98 /* DartsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB962D2C818A006CDB98 /* DartsGameView.swift */; };
+		8610FB9A2D2C818A006CDB98 /* DartsGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB972D2C818A006CDB98 /* DartsGameModel.swift */; };
+		8610FB9B2D2C818A006CDB98 /* DartsGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610FB982D2C818A006CDB98 /* DartsGameViewModel.swift */; };
+		862FEA182D3425DF00E24DA7 /* DartsGrabLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA152D3425DF00E24DA7 /* DartsGrabLoseView.swift */; };
+		862FEA192D3425DF00E24DA7 /* DartsGrabLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA162D3425DF00E24DA7 /* DartsGrabLoseModel.swift */; };
+		862FEA1A2D3425DF00E24DA7 /* DartsGrabLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA172D3425DF00E24DA7 /* DartsGrabLoseViewModel.swift */; };
+		862FEA1F2D3426AB00E24DA7 /* DartsGrabWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA1C2D3426AB00E24DA7 /* DartsGrabWinView.swift */; };
+		862FEA202D3426AB00E24DA7 /* DartsGrabWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA1D2D3426AB00E24DA7 /* DartsGrabWinModel.swift */; };
+		862FEA212D3426AB00E24DA7 /* DartsGrabWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA1E2D3426AB00E24DA7 /* DartsGrabWinViewModel.swift */; };
+		862FEA242D34458100E24DA7 /* CBitMaskGrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA232D34458100E24DA7 /* CBitMaskGrab.swift */; };
+		862FEA272D34459F00E24DA7 /* GrabGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA262D34459F00E24DA7 /* GrabGameData.swift */; };
+		862FEA292D3445A800E24DA7 /* GrabGameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA282D3445A800E24DA7 /* GrabGameSpriteKit.swift */; };
+		862FEA2B2D3445B300E24DA7 /* GrabGameSpriteKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA2A2D3445B300E24DA7 /* GrabGameSpriteKitExtension.swift */; };
+		862FEA2E2D34468D00E24DA7 /* CBitMaskDarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA2D2D34468D00E24DA7 /* CBitMaskDarts.swift */; };
+		862FEA302D34469800E24DA7 /* DartsGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA2F2D34469800E24DA7 /* DartsGameData.swift */; };
+		862FEA322D3446A100E24DA7 /* DartsGameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA312D3446A100E24DA7 /* DartsGameSpriteKit.swift */; };
+		862FEA342D3446AF00E24DA7 /* DartsGameSpriteKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA332D3446AF00E24DA7 /* DartsGameSpriteKitExtension.swift */; };
+		862FEA372D34474400E24DA7 /* UserDefalutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEA362D34474400E24DA7 /* UserDefalutsManager.swift */; };
+		863D11AE2D281C8000D7D34E /* DartsOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863D11AB2D281C8000D7D34E /* DartsOptionsView.swift */; };
+		863D11AF2D281C8000D7D34E /* DartsOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863D11AC2D281C8000D7D34E /* DartsOptionsModel.swift */; };
+		863D11B02D281C8000D7D34E /* DartsOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863D11AD2D281C8000D7D34E /* DartsOptionsViewModel.swift */; };
+		866834092D3177C6004904A1 /* DartsGrabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866834062D3177C6004904A1 /* DartsGrabView.swift */; };
+		8668340A2D3177C6004904A1 /* DartsGrabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866834072D3177C6004904A1 /* DartsGrabModel.swift */; };
+		8668340B2D3177C6004904A1 /* DartsGrabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866834082D3177C6004904A1 /* DartsGrabViewModel.swift */; };
 		86A84BC42D273F4E00012DF8 /* DartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BC32D273F4E00012DF8 /* DartsApp.swift */; };
-		86A84BC62D273F4E00012DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BC52D273F4E00012DF8 /* ContentView.swift */; };
 		86A84BC82D273F4F00012DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A84BC72D273F4F00012DF8 /* Assets.xcassets */; };
 		86A84BCB2D273F4F00012DF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A84BCA2D273F4F00012DF8 /* Preview Assets.xcassets */; };
+		86A84BD52D273F6D00012DF8 /* DartsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BD22D273F6D00012DF8 /* DartsMenuView.swift */; };
+		86A84BD62D273F6D00012DF8 /* DartsMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BD32D273F6D00012DF8 /* DartsMenuModel.swift */; };
+		86A84BD72D273F6D00012DF8 /* DartsMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BD42D273F6D00012DF8 /* DartsMenuViewModel.swift */; };
+		86A84BE02D27401E00012DF8 /* DartsImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BDF2D27401E00012DF8 /* DartsImageName.swift */; };
+		86A84BE22D27402B00012DF8 /* DartsCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BE12D27402B00012DF8 /* DartsCustomButtons.swift */; };
+		86A84BE42D27406000012DF8 /* DartsTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BE32D27406000012DF8 /* DartsTextExtension.swift */; };
+		86A84BE62D27407B00012DF8 /* DartsOutlineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BE52D27407B00012DF8 /* DartsOutlineExtension.swift */; };
+		86A84BE82D27414D00012DF8 /* SpicyRice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A84BE72D27412A00012DF8 /* SpicyRice-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860B7EC42D312C7D00F69248 /* DartsLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsLoseView.swift; sourceTree = "<group>"; };
+		860B7EC52D312C7D00F69248 /* DartsLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsLoseModel.swift; sourceTree = "<group>"; };
+		860B7EC62D312C7D00F69248 /* DartsLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsLoseViewModel.swift; sourceTree = "<group>"; };
+		860B7ECA2D31384A00F69248 /* DartsWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsWinView.swift; sourceTree = "<group>"; };
+		860B7ECB2D31384A00F69248 /* DartsWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsWinModel.swift; sourceTree = "<group>"; };
+		860B7ECC2D31384A00F69248 /* DartsWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsWinViewModel.swift; sourceTree = "<group>"; };
+		8610FB772D2BF207006CDB98 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8610FB7A2D2BF904006CDB98 /* DartsStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsStoreView.swift; sourceTree = "<group>"; };
+		8610FB7B2D2BF904006CDB98 /* DartsStoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsStoreModel.swift; sourceTree = "<group>"; };
+		8610FB7C2D2BF904006CDB98 /* DartsStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsStoreViewModel.swift; sourceTree = "<group>"; };
+		8610FB812D2C363A006CDB98 /* DartsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsProgressView.swift; sourceTree = "<group>"; };
+		8610FB822D2C363A006CDB98 /* DartsProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsProgressModel.swift; sourceTree = "<group>"; };
+		8610FB832D2C363A006CDB98 /* DartsProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsProgressViewModel.swift; sourceTree = "<group>"; };
+		8610FB882D2C6440006CDB98 /* DartsRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsRulesView.swift; sourceTree = "<group>"; };
+		8610FB892D2C6440006CDB98 /* DartsRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsRulesModel.swift; sourceTree = "<group>"; };
+		8610FB8A2D2C6440006CDB98 /* DartsRulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsRulesViewModel.swift; sourceTree = "<group>"; };
+		8610FB8F2D2C6FFC006CDB98 /* DartsPickGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsPickGameView.swift; sourceTree = "<group>"; };
+		8610FB902D2C6FFC006CDB98 /* DartsPickGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsPickGameModel.swift; sourceTree = "<group>"; };
+		8610FB912D2C6FFC006CDB98 /* DartsPickGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsPickGameViewModel.swift; sourceTree = "<group>"; };
+		8610FB962D2C818A006CDB98 /* DartsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGameView.swift; sourceTree = "<group>"; };
+		8610FB972D2C818A006CDB98 /* DartsGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGameModel.swift; sourceTree = "<group>"; };
+		8610FB982D2C818A006CDB98 /* DartsGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGameViewModel.swift; sourceTree = "<group>"; };
+		862FEA152D3425DF00E24DA7 /* DartsGrabLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabLoseView.swift; sourceTree = "<group>"; };
+		862FEA162D3425DF00E24DA7 /* DartsGrabLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabLoseModel.swift; sourceTree = "<group>"; };
+		862FEA172D3425DF00E24DA7 /* DartsGrabLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabLoseViewModel.swift; sourceTree = "<group>"; };
+		862FEA1C2D3426AB00E24DA7 /* DartsGrabWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabWinView.swift; sourceTree = "<group>"; };
+		862FEA1D2D3426AB00E24DA7 /* DartsGrabWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabWinModel.swift; sourceTree = "<group>"; };
+		862FEA1E2D3426AB00E24DA7 /* DartsGrabWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabWinViewModel.swift; sourceTree = "<group>"; };
+		862FEA232D34458100E24DA7 /* CBitMaskGrab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBitMaskGrab.swift; sourceTree = "<group>"; };
+		862FEA262D34459F00E24DA7 /* GrabGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabGameData.swift; sourceTree = "<group>"; };
+		862FEA282D3445A800E24DA7 /* GrabGameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabGameSpriteKit.swift; sourceTree = "<group>"; };
+		862FEA2A2D3445B300E24DA7 /* GrabGameSpriteKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabGameSpriteKitExtension.swift; sourceTree = "<group>"; };
+		862FEA2D2D34468D00E24DA7 /* CBitMaskDarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBitMaskDarts.swift; sourceTree = "<group>"; };
+		862FEA2F2D34469800E24DA7 /* DartsGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGameData.swift; sourceTree = "<group>"; };
+		862FEA312D3446A100E24DA7 /* DartsGameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGameSpriteKit.swift; sourceTree = "<group>"; };
+		862FEA332D3446AF00E24DA7 /* DartsGameSpriteKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGameSpriteKitExtension.swift; sourceTree = "<group>"; };
+		862FEA362D34474400E24DA7 /* UserDefalutsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefalutsManager.swift; sourceTree = "<group>"; };
+		863D11AB2D281C8000D7D34E /* DartsOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsOptionsView.swift; sourceTree = "<group>"; };
+		863D11AC2D281C8000D7D34E /* DartsOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsOptionsModel.swift; sourceTree = "<group>"; };
+		863D11AD2D281C8000D7D34E /* DartsOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsOptionsViewModel.swift; sourceTree = "<group>"; };
+		866834062D3177C6004904A1 /* DartsGrabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabView.swift; sourceTree = "<group>"; };
+		866834072D3177C6004904A1 /* DartsGrabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabModel.swift; sourceTree = "<group>"; };
+		866834082D3177C6004904A1 /* DartsGrabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsGrabViewModel.swift; sourceTree = "<group>"; };
 		86A84BC02D273F4E00012DF8 /* Darts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A84BC32D273F4E00012DF8 /* DartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsApp.swift; sourceTree = "<group>"; };
-		86A84BC52D273F4E00012DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86A84BC72D273F4F00012DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A84BCA2D273F4F00012DF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86A84BD22D273F6D00012DF8 /* DartsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsMenuView.swift; sourceTree = "<group>"; };
+		86A84BD32D273F6D00012DF8 /* DartsMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsMenuModel.swift; sourceTree = "<group>"; };
+		86A84BD42D273F6D00012DF8 /* DartsMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsMenuViewModel.swift; sourceTree = "<group>"; };
+		86A84BDF2D27401E00012DF8 /* DartsImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsImageName.swift; sourceTree = "<group>"; };
+		86A84BE12D27402B00012DF8 /* DartsCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsCustomButtons.swift; sourceTree = "<group>"; };
+		86A84BE32D27406000012DF8 /* DartsTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsTextExtension.swift; sourceTree = "<group>"; };
+		86A84BE52D27407B00012DF8 /* DartsOutlineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsOutlineExtension.swift; sourceTree = "<group>"; };
+		86A84BE72D27412A00012DF8 /* SpicyRice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpicyRice-Regular.ttf"; sourceTree = "<group>"; };
+		86A84BE92D27415D00012DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +133,148 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860B7EC22D312B5300F69248 /* DartsLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				860B7EC42D312C7D00F69248 /* DartsLoseView.swift */,
+				860B7EC52D312C7D00F69248 /* DartsLoseModel.swift */,
+				860B7EC62D312C7D00F69248 /* DartsLoseViewModel.swift */,
+			);
+			path = DartsLoseModule;
+			sourceTree = "<group>";
+		};
+		860B7EC32D312B5A00F69248 /* DartsWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				860B7ECA2D31384A00F69248 /* DartsWinView.swift */,
+				860B7ECB2D31384A00F69248 /* DartsWinModel.swift */,
+				860B7ECC2D31384A00F69248 /* DartsWinViewModel.swift */,
+			);
+			path = DartsWinModule;
+			sourceTree = "<group>";
+		};
+		8610FB792D2BF8F8006CDB98 /* DartsStoreModule */ = {
+			isa = PBXGroup;
+			children = (
+				8610FB7A2D2BF904006CDB98 /* DartsStoreView.swift */,
+				8610FB7B2D2BF904006CDB98 /* DartsStoreModel.swift */,
+				8610FB7C2D2BF904006CDB98 /* DartsStoreViewModel.swift */,
+			);
+			path = DartsStoreModule;
+			sourceTree = "<group>";
+		};
+		8610FB802D2C362E006CDB98 /* DartsProgressModule */ = {
+			isa = PBXGroup;
+			children = (
+				8610FB812D2C363A006CDB98 /* DartsProgressView.swift */,
+				8610FB822D2C363A006CDB98 /* DartsProgressModel.swift */,
+				8610FB832D2C363A006CDB98 /* DartsProgressViewModel.swift */,
+			);
+			path = DartsProgressModule;
+			sourceTree = "<group>";
+		};
+		8610FB872D2C6433006CDB98 /* DartsRulesModule */ = {
+			isa = PBXGroup;
+			children = (
+				8610FB882D2C6440006CDB98 /* DartsRulesView.swift */,
+				8610FB892D2C6440006CDB98 /* DartsRulesModel.swift */,
+				8610FB8A2D2C6440006CDB98 /* DartsRulesViewModel.swift */,
+			);
+			path = DartsRulesModule;
+			sourceTree = "<group>";
+		};
+		8610FB8E2D2C6FEE006CDB98 /* DartsPickGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				8610FB8F2D2C6FFC006CDB98 /* DartsPickGameView.swift */,
+				8610FB902D2C6FFC006CDB98 /* DartsPickGameModel.swift */,
+				8610FB912D2C6FFC006CDB98 /* DartsPickGameViewModel.swift */,
+			);
+			path = DartsPickGameModule;
+			sourceTree = "<group>";
+		};
+		8610FB952D2C817A006CDB98 /* DartsGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				8610FB962D2C818A006CDB98 /* DartsGameView.swift */,
+				8610FB972D2C818A006CDB98 /* DartsGameModel.swift */,
+				8610FB982D2C818A006CDB98 /* DartsGameViewModel.swift */,
+				862FEA2C2D34467000E24DA7 /* DartsSpriteKit */,
+			);
+			path = DartsGameModule;
+			sourceTree = "<group>";
+		};
+		862FEA142D3425CD00E24DA7 /* DartsGrabLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				862FEA152D3425DF00E24DA7 /* DartsGrabLoseView.swift */,
+				862FEA162D3425DF00E24DA7 /* DartsGrabLoseModel.swift */,
+				862FEA172D3425DF00E24DA7 /* DartsGrabLoseViewModel.swift */,
+			);
+			path = DartsGrabLoseModule;
+			sourceTree = "<group>";
+		};
+		862FEA1B2D3426A000E24DA7 /* DartsGrabWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				862FEA1C2D3426AB00E24DA7 /* DartsGrabWinView.swift */,
+				862FEA1D2D3426AB00E24DA7 /* DartsGrabWinModel.swift */,
+				862FEA1E2D3426AB00E24DA7 /* DartsGrabWinViewModel.swift */,
+			);
+			path = DartsGrabWinModule;
+			sourceTree = "<group>";
+		};
+		862FEA222D34457200E24DA7 /* GrabSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				862FEA232D34458100E24DA7 /* CBitMaskGrab.swift */,
+				862FEA262D34459F00E24DA7 /* GrabGameData.swift */,
+				862FEA282D3445A800E24DA7 /* GrabGameSpriteKit.swift */,
+				862FEA2A2D3445B300E24DA7 /* GrabGameSpriteKitExtension.swift */,
+			);
+			path = GrabSpriteKit;
+			sourceTree = "<group>";
+		};
+		862FEA2C2D34467000E24DA7 /* DartsSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				862FEA2D2D34468D00E24DA7 /* CBitMaskDarts.swift */,
+				862FEA2F2D34469800E24DA7 /* DartsGameData.swift */,
+				862FEA312D3446A100E24DA7 /* DartsGameSpriteKit.swift */,
+				862FEA332D3446AF00E24DA7 /* DartsGameSpriteKitExtension.swift */,
+			);
+			path = DartsSpriteKit;
+			sourceTree = "<group>";
+		};
+		862FEA352D34473900E24DA7 /* UserDefalutsManager */ = {
+			isa = PBXGroup;
+			children = (
+				862FEA362D34474400E24DA7 /* UserDefalutsManager.swift */,
+			);
+			path = UserDefalutsManager;
+			sourceTree = "<group>";
+		};
+		863D11AA2D281C6D00D7D34E /* DartsOptionsModule */ = {
+			isa = PBXGroup;
+			children = (
+				863D11AB2D281C8000D7D34E /* DartsOptionsView.swift */,
+				863D11AC2D281C8000D7D34E /* DartsOptionsModel.swift */,
+				863D11AD2D281C8000D7D34E /* DartsOptionsViewModel.swift */,
+			);
+			path = DartsOptionsModule;
+			sourceTree = "<group>";
+		};
+		866834052D3177B7004904A1 /* DartsGrabGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				866834062D3177C6004904A1 /* DartsGrabView.swift */,
+				866834072D3177C6004904A1 /* DartsGrabModel.swift */,
+				866834082D3177C6004904A1 /* DartsGrabViewModel.swift */,
+				862FEA222D34457200E24DA7 /* GrabSpriteKit */,
+			);
+			path = DartsGrabGameModule;
+			sourceTree = "<group>";
+		};
 		86A84BB72D273F4E00012DF8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +294,23 @@
 		86A84BC22D273F4E00012DF8 /* Darts */ = {
 			isa = PBXGroup;
 			children = (
+				86A84BE92D27415D00012DF8 /* Info.plist */,
 				86A84BC32D273F4E00012DF8 /* DartsApp.swift */,
-				86A84BC52D273F4E00012DF8 /* ContentView.swift */,
+				862FEA1B2D3426A000E24DA7 /* DartsGrabWinModule */,
+				862FEA142D3425CD00E24DA7 /* DartsGrabLoseModule */,
+				866834052D3177B7004904A1 /* DartsGrabGameModule */,
+				860B7EC32D312B5A00F69248 /* DartsWinModule */,
+				860B7EC22D312B5300F69248 /* DartsLoseModule */,
+				8610FB952D2C817A006CDB98 /* DartsGameModule */,
+				8610FB8E2D2C6FEE006CDB98 /* DartsPickGameModule */,
+				8610FB872D2C6433006CDB98 /* DartsRulesModule */,
+				8610FB802D2C362E006CDB98 /* DartsProgressModule */,
+				8610FB792D2BF8F8006CDB98 /* DartsStoreModule */,
+				863D11AA2D281C6D00D7D34E /* DartsOptionsModule */,
+				86A84BD12D273F5D00012DF8 /* DartsMenuModule */,
+				86A84BD82D273FD400012DF8 /* DartsHelpers */,
+				86A84BD92D273FD800012DF8 /* DartsExtensions */,
+				862FEA352D34473900E24DA7 /* UserDefalutsManager */,
 				86A84BC72D273F4F00012DF8 /* Assets.xcassets */,
 				86A84BC92D273F4F00012DF8 /* Preview Content */,
 			);
@@ -65,6 +323,76 @@
 				86A84BCA2D273F4F00012DF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86A84BD12D273F5D00012DF8 /* DartsMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BD22D273F6D00012DF8 /* DartsMenuView.swift */,
+				86A84BD32D273F6D00012DF8 /* DartsMenuModel.swift */,
+				86A84BD42D273F6D00012DF8 /* DartsMenuViewModel.swift */,
+				8610FB772D2BF207006CDB98 /* Router.swift */,
+			);
+			path = DartsMenuModule;
+			sourceTree = "<group>";
+		};
+		86A84BD82D273FD400012DF8 /* DartsHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BDE2D27401400012DF8 /* DartsImageName */,
+				86A84BDD2D27400E00012DF8 /* DartsCustomButtons */,
+				86A84BDC2D27400800012DF8 /* DartsFonts */,
+			);
+			path = DartsHelpers;
+			sourceTree = "<group>";
+		};
+		86A84BD92D273FD800012DF8 /* DartsExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BDB2D273FF000012DF8 /* DartsOutlineExtension */,
+				86A84BDA2D273FDC00012DF8 /* DartsTextExtension */,
+			);
+			path = DartsExtensions;
+			sourceTree = "<group>";
+		};
+		86A84BDA2D273FDC00012DF8 /* DartsTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BE32D27406000012DF8 /* DartsTextExtension.swift */,
+			);
+			path = DartsTextExtension;
+			sourceTree = "<group>";
+		};
+		86A84BDB2D273FF000012DF8 /* DartsOutlineExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BE52D27407B00012DF8 /* DartsOutlineExtension.swift */,
+			);
+			path = DartsOutlineExtension;
+			sourceTree = "<group>";
+		};
+		86A84BDC2D27400800012DF8 /* DartsFonts */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BE72D27412A00012DF8 /* SpicyRice-Regular.ttf */,
+			);
+			path = DartsFonts;
+			sourceTree = "<group>";
+		};
+		86A84BDD2D27400E00012DF8 /* DartsCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BE12D27402B00012DF8 /* DartsCustomButtons.swift */,
+			);
+			path = DartsCustomButtons;
+			sourceTree = "<group>";
+		};
+		86A84BDE2D27401400012DF8 /* DartsImageName */ = {
+			isa = PBXGroup;
+			children = (
+				86A84BDF2D27401E00012DF8 /* DartsImageName.swift */,
+			);
+			path = DartsImageName;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +453,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A84BE82D27414D00012DF8 /* SpicyRice-Regular.ttf in Resources */,
 				86A84BCB2D273F4F00012DF8 /* Preview Assets.xcassets in Resources */,
 				86A84BC82D273F4F00012DF8 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +466,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A84BC62D273F4E00012DF8 /* ContentView.swift in Sources */,
+				8610FB7D2D2BF904006CDB98 /* DartsStoreView.swift in Sources */,
+				8610FB992D2C818A006CDB98 /* DartsGameView.swift in Sources */,
+				8610FB9A2D2C818A006CDB98 /* DartsGameModel.swift in Sources */,
+				8610FB9B2D2C818A006CDB98 /* DartsGameViewModel.swift in Sources */,
+				8610FB7E2D2BF904006CDB98 /* DartsStoreModel.swift in Sources */,
+				8610FB7F2D2BF904006CDB98 /* DartsStoreViewModel.swift in Sources */,
+				8610FB922D2C6FFC006CDB98 /* DartsPickGameView.swift in Sources */,
+				8610FB932D2C6FFC006CDB98 /* DartsPickGameModel.swift in Sources */,
+				8610FB942D2C6FFC006CDB98 /* DartsPickGameViewModel.swift in Sources */,
 				86A84BC42D273F4E00012DF8 /* DartsApp.swift in Sources */,
+				863D11AE2D281C8000D7D34E /* DartsOptionsView.swift in Sources */,
+				863D11AF2D281C8000D7D34E /* DartsOptionsModel.swift in Sources */,
+				866834092D3177C6004904A1 /* DartsGrabView.swift in Sources */,
+				8668340A2D3177C6004904A1 /* DartsGrabModel.swift in Sources */,
+				8668340B2D3177C6004904A1 /* DartsGrabViewModel.swift in Sources */,
+				863D11B02D281C8000D7D34E /* DartsOptionsViewModel.swift in Sources */,
+				862FEA302D34469800E24DA7 /* DartsGameData.swift in Sources */,
+				86A84BE62D27407B00012DF8 /* DartsOutlineExtension.swift in Sources */,
+				862FEA1F2D3426AB00E24DA7 /* DartsGrabWinView.swift in Sources */,
+				862FEA322D3446A100E24DA7 /* DartsGameSpriteKit.swift in Sources */,
+				862FEA202D3426AB00E24DA7 /* DartsGrabWinModel.swift in Sources */,
+				862FEA212D3426AB00E24DA7 /* DartsGrabWinViewModel.swift in Sources */,
+				86A84BD52D273F6D00012DF8 /* DartsMenuView.swift in Sources */,
+				86A84BD62D273F6D00012DF8 /* DartsMenuModel.swift in Sources */,
+				862FEA2E2D34468D00E24DA7 /* CBitMaskDarts.swift in Sources */,
+				862FEA372D34474400E24DA7 /* UserDefalutsManager.swift in Sources */,
+				862FEA182D3425DF00E24DA7 /* DartsGrabLoseView.swift in Sources */,
+				862FEA192D3425DF00E24DA7 /* DartsGrabLoseModel.swift in Sources */,
+				862FEA2B2D3445B300E24DA7 /* GrabGameSpriteKitExtension.swift in Sources */,
+				862FEA1A2D3425DF00E24DA7 /* DartsGrabLoseViewModel.swift in Sources */,
+				862FEA272D34459F00E24DA7 /* GrabGameData.swift in Sources */,
+				86A84BE02D27401E00012DF8 /* DartsImageName.swift in Sources */,
+				860B7ECD2D31384A00F69248 /* DartsWinView.swift in Sources */,
+				860B7ECE2D31384A00F69248 /* DartsWinModel.swift in Sources */,
+				860B7ECF2D31384A00F69248 /* DartsWinViewModel.swift in Sources */,
+				86A84BE42D27406000012DF8 /* DartsTextExtension.swift in Sources */,
+				8610FB8B2D2C6440006CDB98 /* DartsRulesView.swift in Sources */,
+				860B7EC72D312C7D00F69248 /* DartsLoseView.swift in Sources */,
+				860B7EC82D312C7D00F69248 /* DartsLoseModel.swift in Sources */,
+				860B7EC92D312C7D00F69248 /* DartsLoseViewModel.swift in Sources */,
+				862FEA292D3445A800E24DA7 /* GrabGameSpriteKit.swift in Sources */,
+				8610FB8C2D2C6440006CDB98 /* DartsRulesModel.swift in Sources */,
+				862FEA242D34458100E24DA7 /* CBitMaskGrab.swift in Sources */,
+				862FEA342D3446AF00E24DA7 /* DartsGameSpriteKitExtension.swift in Sources */,
+				8610FB8D2D2C6440006CDB98 /* DartsRulesViewModel.swift in Sources */,
+				86A84BD72D273F6D00012DF8 /* DartsMenuViewModel.swift in Sources */,
+				8610FB842D2C363A006CDB98 /* DartsProgressView.swift in Sources */,
+				8610FB852D2C363A006CDB98 /* DartsProgressModel.swift in Sources */,
+				8610FB862D2C363A006CDB98 /* DartsProgressViewModel.swift in Sources */,
+				86A84BE22D27402B00012DF8 /* DartsCustomButtons.swift in Sources */,
+				8610FB782D2BF207006CDB98 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +653,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Darts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +683,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Darts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
