@@ -4,7 +4,7 @@ import SwiftUI
 struct DartsApp: App {
     var body: some Scene {
         WindowGroup {
-            DartsMenuView()
+            _DMV()
                 .onAppear {
                     UserDefaultsManager().firstLaunch()
                 }

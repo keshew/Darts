@@ -1,6 +1,6 @@
 import SwiftUI
 
-class DartsGameDataGrab: ObservableObject {
+class dgdgmv: ObservableObject {
     @Published var isLose = false
     @Published var isWin = false
     @Published var timeLeft = 30

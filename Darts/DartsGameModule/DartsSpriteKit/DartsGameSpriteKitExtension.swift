@@ -1,7 +1,7 @@
 import SwiftUI
 import SpriteKit
 
-extension DartsGameSpriteKit {
+extension dgso {
     func setupView() {
         let gameBackground = SKSpriteNode(texture: SKTexture(imageNamed: DartsImageName.dartsGameBackground.rawValue))
         gameBackground.size = CGSize(width: size.width, height: size.height)
@@ -156,8 +156,8 @@ extension DartsGameSpriteKit {
         arrow.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 20, height: 200))
         arrow.physicsBody?.affectedByGravity = false
         arrow.physicsBody?.isDynamic = true
-        arrow.physicsBody?.categoryBitMask = CBitMask.arrow
-        arrow.physicsBody?.contactTestBitMask = CBitMask.goalBall | CBitMask.ball
+        arrow.physicsBody?.categoryBitMask = asd211212.arrow
+        arrow.physicsBody?.contactTestBitMask = asd211212.goalBall | asd211212.ball
         addChild(arrow)
         
         let pinkBall = SKSpriteNode(imageNamed: DartsImageName.pinkBall.rawValue)
@@ -167,8 +167,8 @@ extension DartsGameSpriteKit {
                                     y: size.height / 1.6)
         pinkBall.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 70, height: 70))
         pinkBall.physicsBody?.isDynamic = false
-        pinkBall.physicsBody?.categoryBitMask = CBitMask.goalBall
-        pinkBall.physicsBody?.contactTestBitMask = CBitMask.arrow
+        pinkBall.physicsBody?.categoryBitMask = asd211212.goalBall
+        pinkBall.physicsBody?.contactTestBitMask = asd211212.arrow
         addChild(pinkBall)
         
         let ball1 = SKSpriteNode(imageNamed: DartsImageName.grayBall.rawValue)
@@ -177,8 +177,8 @@ extension DartsGameSpriteKit {
         ball1.position = getLevel().randomElement()?[0] ?? CGPoint(x: 0, y: 0)
         ball1.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 70, height: 70))
         ball1.physicsBody?.isDynamic = false
-        ball1.physicsBody?.categoryBitMask = CBitMask.ball
-        ball1.physicsBody?.contactTestBitMask = CBitMask.arrow
+        ball1.physicsBody?.categoryBitMask = asd211212.ball
+        ball1.physicsBody?.contactTestBitMask = asd211212.arrow
         addChild(ball1)
         
         let ball2 = SKSpriteNode(imageNamed: DartsImageName.grayBall.rawValue)
@@ -187,8 +187,8 @@ extension DartsGameSpriteKit {
         ball2.position = getLevel().randomElement()?[1] ?? CGPoint(x: 0, y: 0)
         ball2.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 70, height: 70))
         ball2.physicsBody?.isDynamic = false
-        ball2.physicsBody?.categoryBitMask = CBitMask.ball
-        ball2.physicsBody?.contactTestBitMask = CBitMask.arrow
+        ball2.physicsBody?.categoryBitMask = asd211212.ball
+        ball2.physicsBody?.contactTestBitMask = asd211212.arrow
         addChild(ball2)
         
         let ball3 = SKSpriteNode(imageNamed: DartsImageName.grayBall.rawValue)
@@ -197,8 +197,8 @@ extension DartsGameSpriteKit {
         ball3.position = getLevel().randomElement()?[2] ?? CGPoint(x: 0, y: 0)
         ball3.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 70, height: 70))
         ball3.physicsBody?.isDynamic = false
-        ball3.physicsBody?.categoryBitMask = CBitMask.ball
-        ball3.physicsBody?.contactTestBitMask = CBitMask.arrow
+        ball3.physicsBody?.categoryBitMask = asd211212.ball
+        ball3.physicsBody?.contactTestBitMask = asd211212.arrow
         addChild(ball3)
         
         let ball4 = SKSpriteNode(imageNamed: DartsImageName.grayBall.rawValue)
@@ -207,8 +207,8 @@ extension DartsGameSpriteKit {
         ball4.position = getLevel().randomElement()?[3] ?? CGPoint(x: 0, y: 0)
         ball4.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 70, height: 70))
         ball4.physicsBody?.isDynamic = false
-        ball4.physicsBody?.categoryBitMask = CBitMask.ball
-        ball4.physicsBody?.contactTestBitMask = CBitMask.arrow
+        ball4.physicsBody?.categoryBitMask = asd211212.ball
+        ball4.physicsBody?.contactTestBitMask = asd211212.arrow
         addChild(ball4)
         
         let ball5 = SKSpriteNode(imageNamed: DartsImageName.grayBall.rawValue)
@@ -217,8 +217,8 @@ extension DartsGameSpriteKit {
         ball5.position = getLevel().randomElement()?[4] ?? CGPoint(x: 0, y: 0)
         ball5.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 70, height: 70))
         ball5.physicsBody?.isDynamic = false
-        ball5.physicsBody?.categoryBitMask = CBitMask.ball
-        ball5.physicsBody?.contactTestBitMask = CBitMask.arrow
+        ball5.physicsBody?.categoryBitMask = asd211212.ball
+        ball5.physicsBody?.contactTestBitMask = asd211212.arrow
                 addChild(ball5)
     }
     
@@ -333,8 +333,8 @@ extension DartsGameSpriteKit {
         arrow.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 20, height: 200))
         arrow.physicsBody?.affectedByGravity = false
         arrow.physicsBody?.isDynamic = true
-        arrow.physicsBody?.categoryBitMask = CBitMask.arrow
-        arrow.physicsBody?.contactTestBitMask = CBitMask.goalBall | CBitMask.ball
+        arrow.physicsBody?.categoryBitMask = asd211212.arrow
+        arrow.physicsBody?.contactTestBitMask = asd211212.goalBall | asd211212.ball
         addChild(arrow)
         game?.isArrowInFlight = false
         

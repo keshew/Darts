@@ -1,7 +1,7 @@
 import SwiftUI
 import SpriteKit
 
-extension DartsGrabGameSpriteKit {
+extension lkojvccn {
     func toKnowPhoneSize() -> CGFloat {
         var isSmall: CGFloat = 0
         
@@ -142,8 +142,8 @@ extension DartsGrabGameSpriteKit {
         handLayer.name = "handLayer"
         handLayer.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 50, height: 50))
         handLayer.physicsBody?.isDynamic = false
-        handLayer.physicsBody?.categoryBitMask = CBitMaskGrab.grab
-        handLayer.physicsBody?.contactTestBitMask = CBitMaskGrab.ball | CBitMaskGrab.obstacle
+        handLayer.physicsBody?.categoryBitMask = _asdasdasd_asd.grab
+        handLayer.physicsBody?.contactTestBitMask = _asdasdasd_asd.ball | _asdasdasd_asd.obstacle
         handLayer.addChild(handFirstPart)
         handLayer.addChild(handSecondPart)
         handLayer.addChild(leftSideHand)
@@ -241,8 +241,8 @@ extension DartsGrabGameSpriteKit {
             sprite.physicsBody?.isDynamic = true
             sprite.physicsBody?.affectedByGravity = true
             sprite.size = CGSize(width: 20, height: 20)
-            sprite.physicsBody?.categoryBitMask = CBitMaskGrab.ball
-            sprite.physicsBody?.contactTestBitMask = CBitMaskGrab.grab
+            sprite.physicsBody?.categoryBitMask = _asdasdasd_asd.ball
+            sprite.physicsBody?.contactTestBitMask = _asdasdasd_asd.grab
             
             sprite.addChild(labelNode)
             self.addChild(sprite)
@@ -262,8 +262,8 @@ extension DartsGrabGameSpriteKit {
             sprite.physicsBody?.isDynamic = true
             sprite.physicsBody?.affectedByGravity = true
             sprite.size = CGSize(width: 20, height: 20)
-            sprite.physicsBody?.categoryBitMask = CBitMaskGrab.ball
-            sprite.physicsBody?.contactTestBitMask = CBitMaskGrab.grab
+            sprite.physicsBody?.categoryBitMask = _asdasdasd_asd.ball
+            sprite.physicsBody?.contactTestBitMask = _asdasdasd_asd.grab
             sprite.addChild(labelNode)
             self.addChild(sprite)
         }
@@ -281,8 +281,8 @@ extension DartsGrabGameSpriteKit {
             sprite.physicsBody?.isDynamic = true
             sprite.physicsBody?.affectedByGravity = true
             sprite.size = CGSize(width: 20, height: 20)
-            sprite.physicsBody?.categoryBitMask = CBitMaskGrab.ball
-            sprite.physicsBody?.contactTestBitMask = CBitMaskGrab.grab
+            sprite.physicsBody?.categoryBitMask = _asdasdasd_asd.ball
+            sprite.physicsBody?.contactTestBitMask = _asdasdasd_asd.grab
             sprite.addChild(labelNode)
             self.addChild(sprite)
         }

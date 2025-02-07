@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SimpleButton: View {
+struct _0b1: View {
     var action: (() -> ())
     var imageForeground: String
     var geometry: GeometryProxy
@@ -24,7 +24,7 @@ struct SimpleButton: View {
     }
 }
 
-struct RoundButton: View {
+struct _RR1: View {
     var action: (() -> ())
     var imageForeground: String
     var geometry: GeometryProxy
@@ -50,7 +50,7 @@ struct RoundButton: View {
     }
 }
 
-struct SoundButton: View {
+struct _SN: View {
     var imageForeground: String
     var sizeHImage: CGFloat
     var sizeWImage: CGFloat
@@ -71,7 +71,7 @@ struct SoundButton: View {
     }
 }
 
-struct ItemToBuy: View {
+struct _ITB: View {
     var geometry: GeometryProxy
     var itemImage: String
     var costMoney: String
@@ -99,7 +99,7 @@ struct ItemToBuy: View {
                         y: geometry.size.height * 0.047)
             
             Text(countOfItem)
-                .SpicyRice(size: 20)
+                ._SR(size: 20)
                 .offset(x: geometry.size.width * 0.078,
                         y: geometry.size.height * 0.047)
             
@@ -113,7 +113,7 @@ struct ItemToBuy: View {
                                height: geometry.size.height * 0.08)
                     
                     Text("BUY")
-                        .SpicyRice(size: 32, outlineWidth: 1.2)
+                        ._SR(size: 32, outlineWidth: 1.2)
                     
                     Image(.costMoneyBackground)
                         .resizable()
@@ -130,7 +130,7 @@ struct ItemToBuy: View {
                                 y: geometry.size.height * 0.027)
                     
                     Text(costMoney)
-                        .SpicyRice(size: 9,
+                        ._SR(size: 9,
                                    firstColor: .white,
                                    secondColor: .orange)
                         .offset(x: geometry.size.width * 0.15,
@@ -142,7 +142,7 @@ struct ItemToBuy: View {
     }
 }
 
-struct ProgressLabel: View {
+struct _PL: View {
     var geometry: GeometryProxy
     var label1: String
     var label2: String
@@ -164,19 +164,19 @@ struct ProgressLabel: View {
             
             VStack(spacing: -5) {
                 Text(label1)
-                    .SpicyRice(size: 34, outlineWidth: 1.3)
+                    ._SR(size: 34, outlineWidth: 1.3)
                 
                 Text(label2)
-                    .SpicyRice(size: 44, firstColor: .white, secondColor: .purple)
+                    ._SR(size: 44, firstColor: .white, secondColor: .purple)
                 
                 Text(label3)
-                    .SpicyRice(size: 26, outlineWidth: 1.3)
+                    ._SR(size: 26, outlineWidth: 1.3)
             }
         }
     }
 }
 
-struct PickGameButton: View {
+struct _PGB: View {
     var imageForeground: String = DartsImageName.dartsIcon.rawValue
     var nameGame: String = "DARTS"
     var geometry: GeometryProxy
@@ -199,14 +199,14 @@ struct PickGameButton: View {
                     .offset(x: -geometry.size.width * 0.23, y: offsetY)
                 
                 Text(nameGame)
-                    .SpicyRice(size: 38, outlineWidth: 1.1)
+                    ._SR(size: 38, outlineWidth: 1.1)
                     .offset(x: geometry.size.width * 0.091)
             }
         }
     }
 }
 
-struct CustomSlider: View {
+struct _CS: View {
     @Binding var value: Double
     let range: ClosedRange<Double>
     let thumbSize: CGFloat = 50

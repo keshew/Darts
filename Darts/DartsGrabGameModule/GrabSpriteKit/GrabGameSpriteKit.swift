@@ -1,8 +1,8 @@
 import SwiftUI
 import SpriteKit
 
-class DartsGrabGameSpriteKit: SKScene, SKPhysicsContactDelegate {
-    var game: DartsGameDataGrab?
+class lkojvccn: SKScene, SKPhysicsContactDelegate {
+    var game: dgdgmv?
     var timeLeft : SKLabelNode!
     var handLayer: SKNode!
     var wire: SKSpriteNode!
