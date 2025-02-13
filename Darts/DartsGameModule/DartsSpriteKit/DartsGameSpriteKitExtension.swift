@@ -3,7 +3,7 @@ import SpriteKit
 
 extension dgso {
     func setupView() {
-        let gameBackground = SKSpriteNode(texture: SKTexture(imageNamed: DartsImageName.dartsGameBackground.rawValue))
+        let gameBackground = SKSpriteNode(texture: SKTexture(imageNamed: UserDefaultsManager().getSelectedBackground() ?? DartsImageName.dartsGameBackground.rawValue))
         gameBackground.size = CGSize(width: size.width, height: size.height)
         gameBackground.position = CGPoint(x: size.width / 2, y: size.height / 2)
         addChild(gameBackground)
@@ -160,7 +160,7 @@ extension dgso {
         arrow.physicsBody?.contactTestBitMask = asd211212.goalBall | asd211212.ball
         addChild(arrow)
         
-        let pinkBall = SKSpriteNode(imageNamed: DartsImageName.pinkBall.rawValue)
+        let pinkBall = SKSpriteNode(imageNamed: UserDefaultsManager().getSelectedBall() ?? DartsImageName.pinkBall.rawValue)
         pinkBall.size = CGSize(width: 70,
                                height: 70)
         pinkBall.position = CGPoint(x: size.width / 2,

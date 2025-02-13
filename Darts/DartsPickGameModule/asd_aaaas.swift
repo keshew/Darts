@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct asd_aaaas: View {
-    @StateObject var DartsPickGameModel =  DartsPickGameViewModel()
+    @StateObject var dartsPickGameModel =  DartsPickGameViewModel()
     @ObservedObject var router: _RTR
     
     var body: some View {
@@ -46,9 +46,41 @@ struct asd_aaaas: View {
                                        offsetY: -10) {
                             router.showGrab()
                         }
+                        
+                        if dartsPickGameModel.isTimerRunning {
+                            ZStack {
+                                _PGB(imageForeground: DartsImageName.findIt.rawValue,
+                                     nameGame: "FIND IT",
+                                     geometry: geometry,
+                                     offsetY: -5,
+                                     sizeH: 0.148,
+                                     sizeW: 0.24, offsetX: 0.22) {
+                                    router.showFind()
+                                    dartsPickGameModel.startTimer()
+                                }
+                                     .opacity(0.5)
+                                
+                                Text("\(dartsPickGameModel.formatTime(dartsPickGameModel.remainingTime))")
+                                    ._SR(size: 30)
+                                    .offset(x: 85, y: 40)
+                            }
+                        } else {
+                            _PGB(imageForeground: DartsImageName.findIt.rawValue,
+                                 nameGame: "FIND IT",
+                                 geometry: geometry,
+                                 offsetY: -5,
+                                 sizeH: 0.148,
+                                 sizeW: 0.24, offsetX: 0.22) {
+                                router.showFind()
+                                dartsPickGameModel.startTimer()
+                            }
+                        }
                     }
                     Spacer()
                 }
+            }
+            .onAppear() {
+                dartsPickGameModel.loadTimer()
             }
         }
         .navigationBarBackButtonHidden(true)

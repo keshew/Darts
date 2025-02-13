@@ -52,7 +52,7 @@ struct asd21: View {
                         
                         HStack(spacing: 10) {
                             Button(action: {
-                                
+                                router.showDarts()
                             }) {
                                 ZStack {
                                     Image(.roundBackground)

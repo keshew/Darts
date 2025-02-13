@@ -9,6 +9,7 @@ enum AppScreen: Hashable {
     case lose
     case darts
     case grab
+    case find
 }
 
 final class _RTR: ObservableObject {
@@ -46,6 +47,9 @@ final class _RTR: ObservableObject {
         path.append(.grab)
     }
     
+    func showFind() {
+        path.append(.find)
+    }
     func back() {
         if !path.isEmpty {
             if path.last == .pickGame {

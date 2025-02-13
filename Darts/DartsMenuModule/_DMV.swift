@@ -96,6 +96,8 @@ struct _DMV: View {
                     DGMASD(router: router)
                 case .grab:
                     zxk9(router: router)
+                case .find:
+                    DartsFindView(router: router)
                 }
             }
         }

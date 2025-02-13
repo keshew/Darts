@@ -50,6 +50,15 @@
 		866834092D3177C6004904A1 /* zxk9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866834062D3177C6004904A1 /* zxk9.swift */; };
 		8668340A2D3177C6004904A1 /* ll9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866834072D3177C6004904A1 /* ll9.swift */; };
 		8668340B2D3177C6004904A1 /* l01sa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866834082D3177C6004904A1 /* l01sa.swift */; };
+		8698CADC2D5E305F00C1BEE6 /* DartsFindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CAD92D5E305F00C1BEE6 /* DartsFindView.swift */; };
+		8698CADD2D5E305F00C1BEE6 /* DartsFindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CADA2D5E305F00C1BEE6 /* DartsFindModel.swift */; };
+		8698CADE2D5E305F00C1BEE6 /* DartsFindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CADB2D5E305F00C1BEE6 /* DartsFindViewModel.swift */; };
+		8698CAE32D5E7F0A00C1BEE6 /* DartsFindWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CAE02D5E7F0A00C1BEE6 /* DartsFindWinView.swift */; };
+		8698CAE42D5E7F0A00C1BEE6 /* DartsFindWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CAE12D5E7F0A00C1BEE6 /* DartsFindWinModel.swift */; };
+		8698CAE52D5E7F0A00C1BEE6 /* DartsFindWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CAE22D5E7F0A00C1BEE6 /* DartsFindWinViewModel.swift */; };
+		8698CAEA2D5E7F8800C1BEE6 /* DartsFindLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CAE72D5E7F8800C1BEE6 /* DartsFindLoseView.swift */; };
+		8698CAEB2D5E7F8800C1BEE6 /* DartsFindLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CAE82D5E7F8800C1BEE6 /* DartsFindLoseModel.swift */; };
+		8698CAEC2D5E7F8800C1BEE6 /* DartsFindLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698CAE92D5E7F8800C1BEE6 /* DartsFindLoseViewModel.swift */; };
 		86A84BC42D273F4E00012DF8 /* DartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84BC32D273F4E00012DF8 /* DartsApp.swift */; };
 		86A84BC82D273F4F00012DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A84BC72D273F4F00012DF8 /* Assets.xcassets */; };
 		86A84BCB2D273F4F00012DF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A84BCA2D273F4F00012DF8 /* Preview Assets.xcassets */; };
@@ -107,6 +116,15 @@
 		866834062D3177C6004904A1 /* zxk9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zxk9.swift; sourceTree = "<group>"; };
 		866834072D3177C6004904A1 /* ll9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ll9.swift; sourceTree = "<group>"; };
 		866834082D3177C6004904A1 /* l01sa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = l01sa.swift; sourceTree = "<group>"; };
+		8698CAD92D5E305F00C1BEE6 /* DartsFindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindView.swift; sourceTree = "<group>"; };
+		8698CADA2D5E305F00C1BEE6 /* DartsFindModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindModel.swift; sourceTree = "<group>"; };
+		8698CADB2D5E305F00C1BEE6 /* DartsFindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindViewModel.swift; sourceTree = "<group>"; };
+		8698CAE02D5E7F0A00C1BEE6 /* DartsFindWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindWinView.swift; sourceTree = "<group>"; };
+		8698CAE12D5E7F0A00C1BEE6 /* DartsFindWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindWinModel.swift; sourceTree = "<group>"; };
+		8698CAE22D5E7F0A00C1BEE6 /* DartsFindWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindWinViewModel.swift; sourceTree = "<group>"; };
+		8698CAE72D5E7F8800C1BEE6 /* DartsFindLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindLoseView.swift; sourceTree = "<group>"; };
+		8698CAE82D5E7F8800C1BEE6 /* DartsFindLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindLoseModel.swift; sourceTree = "<group>"; };
+		8698CAE92D5E7F8800C1BEE6 /* DartsFindLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsFindLoseViewModel.swift; sourceTree = "<group>"; };
 		86A84BC02D273F4E00012DF8 /* Darts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A84BC32D273F4E00012DF8 /* DartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsApp.swift; sourceTree = "<group>"; };
 		86A84BC72D273F4F00012DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -275,6 +293,36 @@
 			path = DartsGrabGameModule;
 			sourceTree = "<group>";
 		};
+		8698CAD82D5E304600C1BEE6 /* DartsFindModule */ = {
+			isa = PBXGroup;
+			children = (
+				8698CAD92D5E305F00C1BEE6 /* DartsFindView.swift */,
+				8698CADA2D5E305F00C1BEE6 /* DartsFindModel.swift */,
+				8698CADB2D5E305F00C1BEE6 /* DartsFindViewModel.swift */,
+			);
+			path = DartsFindModule;
+			sourceTree = "<group>";
+		};
+		8698CADF2D5E7EFB00C1BEE6 /* DartsFindWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				8698CAE02D5E7F0A00C1BEE6 /* DartsFindWinView.swift */,
+				8698CAE12D5E7F0A00C1BEE6 /* DartsFindWinModel.swift */,
+				8698CAE22D5E7F0A00C1BEE6 /* DartsFindWinViewModel.swift */,
+			);
+			path = DartsFindWinModule;
+			sourceTree = "<group>";
+		};
+		8698CAE62D5E7F7C00C1BEE6 /* DartsFindLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				8698CAE72D5E7F8800C1BEE6 /* DartsFindLoseView.swift */,
+				8698CAE82D5E7F8800C1BEE6 /* DartsFindLoseModel.swift */,
+				8698CAE92D5E7F8800C1BEE6 /* DartsFindLoseViewModel.swift */,
+			);
+			path = DartsFindLoseModule;
+			sourceTree = "<group>";
+		};
 		86A84BB72D273F4E00012DF8 = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +344,9 @@
 			children = (
 				86A84BE92D27415D00012DF8 /* Info.plist */,
 				86A84BC32D273F4E00012DF8 /* DartsApp.swift */,
+				8698CAE62D5E7F7C00C1BEE6 /* DartsFindLoseModule */,
+				8698CADF2D5E7EFB00C1BEE6 /* DartsFindWinModule */,
+				8698CAD82D5E304600C1BEE6 /* DartsFindModule */,
 				862FEA1B2D3426A000E24DA7 /* DartsGrabWinModule */,
 				862FEA142D3425CD00E24DA7 /* DartsGrabLoseModule */,
 				866834052D3177B7004904A1 /* DartsGrabGameModule */,
@@ -472,6 +523,9 @@
 				8610FB9B2D2C818A006CDB98 /* _asd21.swift in Sources */,
 				8610FB7E2D2BF904006CDB98 /* _DSM.swift in Sources */,
 				8610FB7F2D2BF904006CDB98 /* _DSVM.swift in Sources */,
+				8698CAE32D5E7F0A00C1BEE6 /* DartsFindWinView.swift in Sources */,
+				8698CAE42D5E7F0A00C1BEE6 /* DartsFindWinModel.swift in Sources */,
+				8698CAE52D5E7F0A00C1BEE6 /* DartsFindWinViewModel.swift in Sources */,
 				8610FB922D2C6FFC006CDB98 /* asd_aaaas.swift in Sources */,
 				8610FB932D2C6FFC006CDB98 /* DartsPickGameModel.swift in Sources */,
 				8610FB942D2C6FFC006CDB98 /* DartsPickGameViewModel.swift in Sources */,
@@ -483,6 +537,12 @@
 				8668340B2D3177C6004904A1 /* l01sa.swift in Sources */,
 				863D11B02D281C8000D7D34E /* _DOVM.swift in Sources */,
 				862FEA302D34469800E24DA7 /* ga.swift in Sources */,
+				8698CAEA2D5E7F8800C1BEE6 /* DartsFindLoseView.swift in Sources */,
+				8698CAEB2D5E7F8800C1BEE6 /* DartsFindLoseModel.swift in Sources */,
+				8698CAEC2D5E7F8800C1BEE6 /* DartsFindLoseViewModel.swift in Sources */,
+				8698CADC2D5E305F00C1BEE6 /* DartsFindView.swift in Sources */,
+				8698CADD2D5E305F00C1BEE6 /* DartsFindModel.swift in Sources */,
+				8698CADE2D5E305F00C1BEE6 /* DartsFindViewModel.swift in Sources */,
 				86A84BE62D27407B00012DF8 /* DartsOutlineExtension.swift in Sources */,
 				862FEA1F2D3426AB00E24DA7 /* jghmnvjf.swift in Sources */,
 				862FEA322D3446A100E24DA7 /* dgso.swift in Sources */,

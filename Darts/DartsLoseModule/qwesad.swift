@@ -90,6 +90,7 @@ struct qwesad: View {
                                         y: geometry.size.height * 0.04)
                             }
                         }
+                        .disabled(true)
                         
                         HStack(spacing: 20) {
                             Button(action: {

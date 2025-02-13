@@ -48,4 +48,11 @@ public enum DartsImageName: String {
     case yellowBall, orangeBall, bomb
     case platform
     case straightWire
+    case findIt
+    case backShopBtn, nextShopBtn
+    case bg1, bg2, bg3, bg4
+    case ball1, ball2, ball3, ball4
+    case findBG, pausee
+    case selected
+    case back1, back2, back3, back4
 }

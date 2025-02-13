@@ -142,6 +142,176 @@ struct _ITB: View {
     }
 }
 
+struct BallItem: View {
+    var geometry: GeometryProxy
+    var image: String
+    var action: (() -> ())
+    var body: some View {
+        ZStack {
+            Image(.shopItemBackground)
+                .resizable()
+                .frame(width: geometry.size.width * 0.37,
+                       height: geometry.size.height * 0.29)
+            
+            Image(image)
+                .resizable()
+                .frame(width: geometry.size.width * 0.19,
+                       height: geometry.size.height * 0.095)
+            
+            Button(action: {
+                action()
+            }) {
+                ZStack {
+                    Image(.backButtonBorder)
+                        .resizable()
+                        .frame(width: geometry.size.width * 0.37,
+                               height: geometry.size.height * 0.08)
+                    
+                    Text("BUY")
+                        ._SR(size: 32, outlineWidth: 1.2)
+                    
+                    Image(.costMoneyBackground)
+                        .resizable()
+                        .frame(width: geometry.size.width * 0.11,
+                               height: geometry.size.height * 0.031)
+                        .offset(x: geometry.size.width * 0.129,
+                                y: geometry.size.height * 0.027)
+                    
+                    Image(.coin)
+                        .resizable()
+                        .frame(width: geometry.size.width * 0.04,
+                               height: geometry.size.height * 0.02)
+                        .offset(x: geometry.size.width * 0.105,
+                                y: geometry.size.height * 0.027)
+                    
+                    Text("250")
+                        ._SR(size: 9,
+                                   firstColor: .white,
+                                   secondColor: .orange)
+                        .offset(x: geometry.size.width * 0.15,
+                                y: geometry.size.height * 0.027)
+                }
+            }
+            .offset(x: 0, y: geometry.size.height * 0.145)
+        }
+    }
+}
+
+struct BallItemSelected: View {
+    var geometry: GeometryProxy
+    var image: String
+    var action: (() -> ())
+    var body: some View {
+        ZStack {
+            Image(.shopItemBackground)
+                .resizable()
+                .frame(width: geometry.size.width * 0.37,
+                       height: geometry.size.height * 0.29)
+            
+            Image(image)
+                .resizable()
+                .frame(width: geometry.size.width * 0.19,
+                       height: geometry.size.height * 0.095)
+            
+            Button(action: {
+                action()
+            }) {
+                Image(.selected)
+                    .resizable()
+                    .frame(width: geometry.size.width * 0.37,
+                           height: geometry.size.height * 0.08)
+            }
+            .offset(x: 0, y: geometry.size.height * 0.145)
+        }
+    }
+}
+
+struct ShopItem: View {
+    var geometry: GeometryProxy
+    var image: String
+    var action: (() -> ())
+    var body: some View {
+        ZStack {
+            Image(.shopItemBackground)
+                .resizable()
+                .frame(width: geometry.size.width * 0.37,
+                       height: geometry.size.height * 0.29)
+            
+            Image(image)
+                .resizable()
+                .frame(width: geometry.size.width * 0.218,
+                       height: geometry.size.height * 0.2)
+                .offset(y: -23)
+            
+            Button(action: {
+                action()
+            }) {
+                ZStack {
+                    Image(.backButtonBorder)
+                        .resizable()
+                        .frame(width: geometry.size.width * 0.37,
+                               height: geometry.size.height * 0.08)
+                    
+                    Text("BUY")
+                        ._SR(size: 32, outlineWidth: 1.2)
+                    
+                    Image(.costMoneyBackground)
+                        .resizable()
+                        .frame(width: geometry.size.width * 0.11,
+                               height: geometry.size.height * 0.031)
+                        .offset(x: geometry.size.width * 0.129,
+                                y: geometry.size.height * 0.027)
+                    
+                    Image(.coin)
+                        .resizable()
+                        .frame(width: geometry.size.width * 0.04,
+                               height: geometry.size.height * 0.02)
+                        .offset(x: geometry.size.width * 0.105,
+                                y: geometry.size.height * 0.027)
+                    
+                    Text("250")
+                        ._SR(size: 9,
+                                   firstColor: .white,
+                                   secondColor: .orange)
+                        .offset(x: geometry.size.width * 0.15,
+                                y: geometry.size.height * 0.027)
+                }
+            }
+            .offset(x: 0, y: geometry.size.height * 0.145)
+        }
+    }
+}
+
+struct ShopItemSelected: View {
+    var geometry: GeometryProxy
+    var image: String
+    var action: (() -> ())
+    var body: some View {
+        ZStack {
+            Image(.shopItemBackground)
+                .resizable()
+                .frame(width: geometry.size.width * 0.37,
+                       height: geometry.size.height * 0.29)
+            
+            Image(image)
+                .resizable()
+                .frame(width: geometry.size.width * 0.218,
+                       height: geometry.size.height * 0.2)
+                .offset(y: -23)
+            
+            Button(action: {
+                action()
+            }) {
+                Image(.selected)
+                    .resizable()
+                    .frame(width: geometry.size.width * 0.37,
+                           height: geometry.size.height * 0.08)
+            }
+            .offset(x: 0, y: geometry.size.height * 0.145)
+        }
+    }
+}
+
 struct _PL: View {
     var geometry: GeometryProxy
     var label1: String
@@ -181,6 +351,9 @@ struct _PGB: View {
     var nameGame: String = "DARTS"
     var geometry: GeometryProxy
     var offsetY: CGFloat = 0
+    var sizeH: CGFloat = 0.198
+    var sizeW: CGFloat = 0.382
+    var offsetX: CGFloat = 0.23
     var action: (() -> ())
     var body: some View {
         Button(action: {
@@ -194,9 +367,9 @@ struct _PGB: View {
                 
                 Image(imageForeground)
                     .resizable()
-                    .frame(width: geometry.size.width * 0.382,
-                           height: geometry.size.height * 0.198)
-                    .offset(x: -geometry.size.width * 0.23, y: offsetY)
+                    .frame(width: geometry.size.width * sizeW,
+                           height: geometry.size.height * sizeH)
+                    .offset(x: -geometry.size.width * offsetX, y: offsetY)
                 
                 Text(nameGame)
                     ._SR(size: 38, outlineWidth: 1.1)
@@ -247,5 +420,19 @@ struct _CS: View {
     private func updateValue(with locationX: CGFloat, in totalWidth: CGFloat) {
         let newValue = (locationX / totalWidth) * (range.upperBound - range.lowerBound) + range.lowerBound
         value = min(max(newValue, range.lowerBound), range.upperBound)
+    }
+}
+
+struct BackShopBtn: View {
+    var image: String
+    var action: (() -> ())
+    var body: some View {
+        Button(action: {
+            action()
+        }) {
+            Image(image)
+                .resizable()
+                .frame(width: 50, height: 50)
+        }
     }
 }
