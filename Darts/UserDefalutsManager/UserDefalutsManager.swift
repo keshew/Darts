@@ -176,7 +176,7 @@ class UserDefaultsManager: ObservableObject {
         if UserDefaultsManager.defaults.string(forKey: Keys.numberOfLevel.rawValue) == nil {
             UserDefaultsManager.defaults.set(1, forKey: Keys.numberOfLevel.rawValue)
             UserDefaultsManager.defaults.set(1, forKey: Keys.levelFind.rawValue)
-            UserDefaultsManager.defaults.set(1550, forKey: Keys.countOfMoney.rawValue)
+            UserDefaultsManager.defaults.set(150, forKey: Keys.countOfMoney.rawValue)
             saveBalls(array: arrayOfBall)
             saveBackground(array: arrayOfBackground)
         }
